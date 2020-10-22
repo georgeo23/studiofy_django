@@ -68,6 +68,7 @@ REST_FRAMEWORK = {
         ##this sets the default authentication classes which the server will try when it recieves a request
     ),
 }
+CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
